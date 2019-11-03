@@ -19,8 +19,8 @@ from spyne.server.wsgi import WsgiApplication
 
 class send_email():
     def __init__(self):
-        self.username = '666@huangpengfei.work'
-        self.password = 'QWERqwer123'
+        self.username = *****#此处为你自己申请的阿里云邮箱地址
+        self.password = *****#此处为你自己设定的密码
         self.rcptlist = []
         self.receivers = []
         self.msg = None
